@@ -123,7 +123,7 @@ class Dominoes:
             if counter == 8:
                 self.status = Dominoes.messages[4]
 
-    def interface(self):
+    def main(self):
         self.domino_set()
         self.domino_snake()
 
@@ -157,4 +157,4 @@ class Dominoes:
 
 
 if __name__ == '__main__':
-    Dominoes().interface()
+    Dominoes().main()
